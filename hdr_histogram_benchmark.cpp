@@ -194,4 +194,7 @@ BENCHMARK(BM_hdr_value_at_percentile_given_array)
     ->Apply(generate_arguments_pairs);
 BENCHMARK(BM_hdr_value_at_percentiles_given_array)
     ->Apply(generate_arguments_pairs);
+BENCHMARK(BM_hdr_add_lognormal_dist)
+    ->Apply(generate_arguments_pairs);
+    
 BENCHMARK_MAIN();

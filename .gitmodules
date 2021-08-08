@@ -1,0 +1,9 @@
+[submodule "deps/t-digest-c"]
+	path = deps/t-digest-c
+	url = https://github.com/RedisBloom/t-digest-c
+[submodule "deps/HdrHistogram_c"]
+	path = deps/HdrHistogram_c
+	url = https://github.com/HdrHistogram/HdrHistogram_c
+[submodule "deps/benchmark"]
+	path = deps/benchmark
+	url = https://github.com/google/benchmark
